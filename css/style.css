@@ -1,3 +1,75 @@
+
+
+body{
+  font-family: sans-serif;
+  background-color: white;
+  padding: auto;
+}
+
 h1{
-  color: red;
+
+}
+
+.top{
+  border: 3px solid black;
+}
+
+.logonav{
+  border: 3px solid black;
+}
+
+.banner{
+  border: 3px solid black;
+  text-align: center;
+}
+
+/* main {
+  background-color: white;
+  height: 700px;
+} */
+
+
+
+.container{
+  clear: both;
+  border: 3px solid red;
+  text-align: center;
+  height: 900px;
+}
+
+.left{
+  border: 3px solid black;
+  float: left;
+  width:69%;
+  height: 100%;
+
+}
+
+.left-top{
+  border: 3px solid black;
+}
+
+.left-bottom{
+  border: 3px solid black;
+  text-align:justify;
+  height: 300px;
+}
+
+.right{
+  border: 3px solid black;
+  float: right;
+  width:29%;
+  height: 100%;
+}
+
+.links{
+  border: 3px solid black;
+
+}
+
+.bottom{
+  border: 5px solid black;
+  border-color: blue;
+
+
 }
