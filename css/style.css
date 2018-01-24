@@ -1,51 +1,62 @@
 
 html{
-  background-color: blue;
+  background-color: #191d58;
 }
+
 body{
   font-family: sans-serif;
   background-color: white;
   padding: auto;
   margin-left: 10%;
   margin-right: 10%;
+  color: #2f2f2f;
+  border: #25304c;
 }
 
 h1{
-
-}
-
-.top{
-  /* border: 3px solid black; */
-}
-
-.logonav{
-  /* border: 3px solid black; */
+  color: #25304c;
 }
 
 nav{
   border-top: 3px solid black;
-
 }
 
 ul{
   list-style-type: none;
 }
 
-.logonav li{
-  float: right;
-
-}
-
 nav li{
   display: inline;
   margin: 30px;
   margin-bottom: 50px;
-
-
 }
 
+a:link{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  }
+a:visited{
+  text-decoration: none;
+  font-weight: bold;
+  color: #767676;
+  }
+
+a:hover{
+  text-decoration: underline;
+  font-weight: bold;
+  background-color: #d0d0d0;
+  color: #191d58;
+  }
+
+a:active{
+  text-decoration: underline;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  }
+
 .banner{
-  /* border: 3px solid black; */
   text-align: center;
   border-bottom: 3px solid black;
   border-top: 3px solid black;
@@ -53,31 +64,25 @@ nav li{
 
 .container{
   clear: both;
-  /* border: 3px solid red; */
   text-align: center;
   height: 960px;
 }
 
 .left{
-  /* border: 3px solid black; */
   float: left;
   width:69%;
   height: 100%;
   border-bottom: 3px solid black;
   border-right: 3px solid black;
   text-align: center;
-
-
 }
 
 .left-top{
-  /* border: 3px solid black; */
   padding-bottom: 20px;
 }
 
 .left-bottom{
   margin-top: 50px;
-  /* border: 3px solid black; */
   text-align:center;
   height: 300px;
   margin-left: 50px;
@@ -85,17 +90,19 @@ nav li{
 }
 
 .right{
-  /* border: 3px solid black; */
   float: right;
   width:21%;
   height: 100%;
   margin-right: 60px;
-  /* border-left: 3px solid black; */
+}
+
+.right li{
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .links{
-  /* border: 3px solid black; */
-
+  text-align: center;
 }
 
 .bottom{
@@ -103,9 +110,11 @@ nav li{
   opacity: 25%;
   text-align: center;
   padding-bottom: 20px;
-
-
+  color: #d0d0d0;
+  padding-left: 50px;
 }
+
+/* Below is the responsive css for a tablet with width 768px */
 
 @media screen and (max-width: 768px)  {
 
